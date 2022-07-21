@@ -469,6 +469,31 @@ small {
   align-items: center;
   justify-content: center;
 }
+#companies {
+  height: 300px;
+  padding: 30px;
+}
+.company-h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+.company-col {
+  padding: 50px;
+}
+.logo-google,
+.logo-lyft,
+.logo-vw,
+.logo-micro,
+.logo-air {
+  width: 100px;
+  height: auto;
+  fill: darkgrey;
+}
+.logo-vw,
+.logo-lyft {
+  width: 50px;
+  height: auto;
+}
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -572,6 +597,24 @@ small {
   }
   .testimonial-img {
     width: 70px;
+    height: auto;
+  }
+  .companyLogo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo-google,
+  .logo-lyft,
+  .logo-vw,
+  .logo-micro,
+  .logo-air {
+    width: 50px;
+    height: auto;
+    fill: darkgrey;
+  }
+  .logo-vw,
+  .logo-lyft {
+    width: 35px;
     height: auto;
   }
 }
