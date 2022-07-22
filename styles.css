@@ -494,6 +494,82 @@ small {
   width: 50px;
   height: auto;
 }
+footer {
+  height: fit-content;
+  padding-bottom: 20px;
+  background: #4160fb;
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 0.4797269249496674) 100%
+  );
+}
+
+.footer-row,
+.footer-small {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.footer-col h3 {
+  padding-bottom: 15px;
+}
+.footer-col {
+  padding: 80px 50px 20px;
+}
+.footer-btns {
+  display: flex;
+  flex-direction: column;
+}
+.footerApple-btn,
+.footerGoogle-btn {
+  width: 160px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 17px;
+}
+.footerApple-btn a,
+.footerGoogle-btn a {
+  color: #fff;
+}
+
+.footer-logo {
+  fill: #fff;
+  width: 200px;
+  height: auto;
+}
+
+.social {
+  margin-top: 20px;
+  color: #fff;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #fff;
+}
+.fa-instagram {
+  padding: 10px 12px;
+}
+.fa-facebook-f {
+  padding: 10px 13px;
+}
+.fa-twitter {
+  padding: 10px;
+}
+
+.fa-youtube {
+  padding: 10px;
+}
+.social:hover,
+.footerGoogle-btn:hover,
+.footerApple-btn:hover,
+.footerApple-btn a:hover,
+.footerGoogle-btn a:hover {
+  color: #232173;
+  background-color: #f0f0f2;
+}
 @media (max-width: 768px) {
   .menu {
     display: none;
@@ -616,5 +692,17 @@ small {
   .logo-lyft {
     width: 35px;
     height: auto;
+  }
+  footer {
+    margin-top: 50%;
+  }
+  .footerLogo-div {
+    height: 160px;
+  }
+  .footer-row {
+    flex-direction: column;
+  }
+  .footer-col {
+    padding-top: 15px;
   }
 }
