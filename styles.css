@@ -108,64 +108,34 @@ input[type="checkbox"] {
   flex-direction: row;
   justify-content: center;
 }
-#learnMore {
-  background: rgb(63, 94, 251);
-  background: linear-gradient(
-    90deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 0.4797269249496674) 100%
-  );
-  padding: 8%;
-  margin-top: 40%;
-  font-size: large;
-}
-
-.learnHeading {
-  margin-right: 9%;
-  margin-top: 3%;
-}
-.learn-h2 {
-  padding-bottom: 30px;
-}
-.learn-p {
-  padding: 15px;
-}
-.learn-h2,
-.learn-p,
-.learn-a,
-.testimonials-h2,
-footer {
-  color: #fff;
-}
-
-.learn-img {
-  width: 500px;
-  height: auto;
-}
 
 /* Header Styling */
 .main-image {
-  width: 100%;
+  width: 90%;
   height: auto;
-  margin-top: -12%;
+  margin-top: -9%;
 }
 .header-text,
 .header-image {
-  width: 50%;
+  padding: 20px;
+  width: 100%;
+  height: auto;
 }
 .header-text {
-  height: fit-content;
+  height: 400px;
 }
 .header-text,
 .testimonials-h2 {
   text-align: center;
 }
+.header-btns {
+  margin: 20px 15px 20px;
+}
 .apple-btn,
 .google-btn {
   width: 160px;
   padding: 10px;
-  margin-top: 20px;
-  margin-right: 15px;
+  margin-right: 10px;
   border: none;
   background-color: #ffffff;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -187,17 +157,16 @@ button a {
 button a:hover,
 .fa-apple:hover,
 .fa-google-play:hover {
-  color: #fff;
+  color: #232173;
 }
 .background {
   position: absolute;
   width: 98vw;
-  height: 99vh;
+  height: 60vh;
   top: 30;
   left: 0;
   background: #ffffff;
   overflow: hidden;
-  z-index: -1;
 }
 
 .background span {
@@ -347,14 +316,39 @@ button a:hover,
   transform-origin: -6vw -24vh;
   box-shadow: -8vmin 0 1.72215198288744vmin currentColor;
 }
-#testimonials {
-  height: 500px;
+#learnMore {
   background: rgb(63, 94, 251);
   background: linear-gradient(
-    270deg,
+    90deg,
     rgba(63, 94, 251, 1) 0%,
     rgba(252, 70, 107, 0.4797269249496674) 100%
   );
+  padding: 8%;
+  margin-top: 40%;
+  font-size: large;
+}
+
+.learnHeading {
+  margin-right: 9%;
+  margin-top: 3%;
+}
+.learn-h2 {
+  padding-bottom: 30px;
+}
+.learn-p {
+  padding: 8px;
+}
+.learn-h2,
+.learn-p,
+.learn-a,
+.testimonials-h2,
+footer {
+  color: #fff;
+}
+
+.learn-img {
+  width: 500px;
+  height: auto;
 }
 #features {
   padding: 5%;
@@ -378,6 +372,16 @@ button a:hover,
   padding-left: 15%;
   width: 40%;
 }
+#testimonials {
+  height: 500px;
+  background: rgb(63, 94, 251);
+  background: linear-gradient(
+    270deg,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 0.4797269249496674) 100%
+  );
+}
+
 .testimonials-h2 {
   padding: 5%;
 }
@@ -398,7 +402,9 @@ small {
   height: 21.875rem;
   width: 100%;
 }
-
+.fill {
+  background-color: #fff;
+}
 .card {
   display: flex;
   width: 27.8125rem;
