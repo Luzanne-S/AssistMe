@@ -109,7 +109,7 @@ iframe {
     font-weight: 500;
   }
   .nav-link:hover {
-    color: rgb(176, 50, 142);
+    color: #dd7d5d;
     font-weight: 600;
   }
 }
@@ -118,6 +118,10 @@ h2,
 h4 {
   font-family: "Josefin Sans", sans-serif;
 }
+h4 {
+  margin: 25px 0 25px 0;
+}
+
 h1 {
   font-size: 50px;
   padding-top: 3px;
@@ -241,6 +245,7 @@ li {
 
 .header-text {
   height: 400px;
+  color: #4d5157;
 }
 .header-text,
 .testimonials-h2 {
@@ -255,18 +260,18 @@ li {
   padding: 10px;
   margin-right: 10px;
   border: none;
-  background-color: #ffffff;
+  background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   font-size: 17px;
 }
 button a {
-  color: #000;
+  color: #4d5157;
 }
 .apple-btn:hover,
 .google-btn:hover {
   background-color: transparent;
   border: solid;
-  border-color: #fff;
+  border-color: #3eb489;
 }
 .fa-apple,
 .fa-google-play {
@@ -275,7 +280,7 @@ button a {
 button a:hover,
 .fa-apple:hover,
 .fa-google-play:hover {
-  color: #232173;
+  color: #3eb489;
 }
 .background {
   position: absolute;
@@ -327,7 +332,7 @@ button a:hover,
   box-shadow: -8vmin 0 1.6625145850872691vmin currentColor;
 }
 .background span:nth-child(3) {
-  color: #e45a84;
+  color: #dba6f7;
   top: 52%;
   right: 50%;
   animation-duration: 6s;
@@ -345,7 +350,7 @@ button a:hover,
   box-shadow: 8vmin 0 1.4689458876036525vmin currentColor;
 }
 .background span:nth-child(5) {
-  color: #232173;
+  color: #add8e6;
   top: 3%;
   left: 10%;
   animation-duration: 52s;
@@ -372,7 +377,7 @@ button a:hover,
   box-shadow: -8vmin 0 1.887226598542125vmin currentColor;
 }
 .background span:nth-child(8) {
-  color: #e45a84;
+  color: #dba6f7;
   top: 23%;
   left: 32%;
   animation-duration: 293s;
@@ -381,7 +386,7 @@ button a:hover,
   box-shadow: 8vmin 0 1.5485070903512974vmin currentColor;
 }
 .background span:nth-child(9) {
-  color: #232173;
+  color: #add8e6;
   top: 64%;
   left: 80%;
   animation-duration: 391s;
@@ -390,7 +395,7 @@ button a:hover,
   box-shadow: -8vmin 0 1.6741411173366696vmin currentColor;
 }
 .background span:nth-child(10) {
-  color: #e45a84;
+  color: #dba6f7;
   top: 48%;
   left: 33%;
   animation-duration: 325s;
@@ -399,7 +404,7 @@ button a:hover,
   box-shadow: -8vmin 0 1.5253460188714911vmin currentColor;
 }
 .background span:nth-child(11) {
-  color: #232173;
+  color: #add8e6;
   top: 2%;
   left: 49%;
   animation-duration: 364s;
@@ -408,7 +413,7 @@ button a:hover,
   box-shadow: -8vmin 0 1.9208355478641364vmin currentColor;
 }
 .background span:nth-child(12) {
-  color: #c99b36;
+  color: #dd7d5d;
   top: 57%;
   left: 3%;
   animation-duration: 78s;
@@ -417,7 +422,7 @@ button a:hover,
   box-shadow: -8vmin 0 1.6890323565094043vmin currentColor;
 }
 .background span:nth-child(13) {
-  color: #c99b36;
+  color: #dd7d5d;
   top: 3%;
   left: 55%;
   animation-duration: 13s;
@@ -438,12 +443,15 @@ button a:hover,
   background: rgb(63, 94, 251);
   background: linear-gradient(
     90deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 0.4797269249496674) 100%
+    rgba(63, 94, 251, 0.374) 0%,
+    rgba(252, 70, 106, 0.329) 100%
   );
   padding: 8%;
   margin-top: 40%;
   font-size: large;
+}
+.fa-circle-notch {
+  color: #dd7d5d;
 }
 @media (min-width: 419px) and (max-width: 741px) {
   h1 {
@@ -452,6 +460,8 @@ button a:hover,
   .main-image {
     width: 350px;
     height: auto;
+    display: block;
+    margin: auto;
   }
   .header-image {
     width: fit-content;
@@ -486,30 +496,31 @@ button a:hover,
     flex-wrap: wrap;
   }
 }
+.learnImage {
+  width: 60%;
+  height: auto;
+}
 .learnHeading {
-  margin-right: 9%;
-  margin-top: 3%;
+  width: 50%;
 }
 .learn-h2 {
   padding-bottom: 30px;
 }
 .learn-p {
   padding: 8px;
+  line-height: 2;
 }
 .learn-h2,
 .learn-p,
 .learn-a,
 .testimonials-h2,
 footer {
-  color: #fff;
+  color: #4d5157;
 }
 
-.learn-img {
-  width: 500px;
-  height: auto;
-}
 #features {
   padding: 5%;
+  color: #4d5157;
 }
 .features-img {
   margin-left: 20%;
@@ -521,10 +532,11 @@ footer {
 .fa-angellist,
 .fa-shield-halved {
   margin: 30px;
-  color: #232173;
+  color: #4d5157;
 }
 .features-h2 {
   margin-top: 5%;
+  margin-bottom: 20%;
 }
 .featuresText {
   padding-left: 15%;
@@ -535,8 +547,8 @@ footer {
   background: rgb(63, 94, 251);
   background: linear-gradient(
     270deg,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 0.4797269249496674) 100%
+    rgba(63, 94, 251, 0.374) 0%,
+    rgba(252, 70, 106, 0.329) 100%
   );
 }
 .testimonials-h2 {
@@ -638,6 +650,7 @@ small {
 #companies {
   height: 300px;
   padding: 30px;
+  color: #4d5157;
 }
 .company-h2 {
   text-align: center;
@@ -666,8 +679,8 @@ footer {
   background: #4160fb;
   background: radial-gradient(
     circle,
-    rgba(63, 94, 251, 1) 0%,
-    rgba(252, 70, 107, 0.4797269249496674) 100%
+    rgba(63, 94, 251, 0.374) 0%,
+    rgba(252, 70, 106, 0.329) 100%
   );
 }
 
@@ -699,21 +712,21 @@ footer {
 }
 .footerApple-btn a,
 .footerGoogle-btn a {
-  color: #fff;
+  color: #4d5157;
 }
 
 .footer-logo {
-  fill: #fff;
+  fill: #4d5157;
   width: 200px;
   height: auto;
 }
 
 .social {
   margin-top: 20px;
-  color: #fff;
+  color: #4d5157;
   border-style: solid;
   border-radius: 50%;
-  border-color: #fff;
+  border-color: #4d5157;
 }
 .fa-instagram {
   padding: 10px 12px;
@@ -733,8 +746,9 @@ footer {
 .footerApple-btn:hover,
 .footerApple-btn a:hover,
 .footerGoogle-btn a:hover {
-  color: #232173;
-  background-color: #f0f0f2;
+  color: #3eb489;
+  border-color: #3eb489;
+  background-color: transparent;
 }
 @media (max-width: 742px) {
   .background,
@@ -754,15 +768,19 @@ footer {
     height: fit-content;
   }
   h1 {
-    padding-top: 10%;
+    padding-top: 22%;
     font-size: 30px;
   }
   .learn-h2,
   .features-h2 {
     font-size: 20px;
   }
+  .learn-text {
+    margin-top: 5%;
+  }
   .learn-p {
     font-size: 16px;
+    line-height: 1;
   }
 
   .header-btns {
@@ -782,11 +800,16 @@ footer {
     background: rgb(63, 94, 251);
     background: linear-gradient(
       356deg,
-      rgba(63, 94, 251, 1) 0%,
-      rgba(252, 70, 107, 0.4797269249496674) 100%
+      rgba(63, 94, 251, 0.374) 0%,
+      rgba(252, 70, 106, 0.329) 100%
     );
     z-index: 0;
     margin-top: 410px;
+  }
+  .learnImage {
+    display: block;
+    margin: auto;
+    width: 100%;
   }
   .testimonials-h2 {
     margin-top: -10%;
