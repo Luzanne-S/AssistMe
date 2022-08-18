@@ -5,11 +5,7 @@ The landing page has buttons that lead the user to a figma protoype, which displ
 
 ### Screenshot
 
-<<<<<<< Updated upstream
-![](images/ezgif.com-gif-maker(1).gif)
-=======
-![](images/screenshot.png)
->>>>>>> Stashed changes
+![](images/screenshot.gif)
 
 ### Links
 
@@ -24,8 +20,4 @@ The landing page has buttons that lead the user to a figma protoype, which displ
 - Flexbox
 - Javascript
 - Figma
-<<<<<<< Updated upstream
 - Animate on Scroll
-
-=======
->>>>>>> Stashed changes
