@@ -9,7 +9,7 @@ The landing page has buttons that lead the user to a figma protoype, which displ
 
 ### Links
 
-- Live Site URL: [https://luzanne-s.github.io/AssistMe/]
+- Live Site URL: [https://dashing-otter-10826a.netlify.app/]
 
 ## My process
 
