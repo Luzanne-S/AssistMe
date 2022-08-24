@@ -212,8 +212,14 @@ li {
   #features {
     flex-direction: column;
   }
+
+  .companyLogo {
+    flex-wrap: wrap;
+  }
   .footer-row {
     flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
 
@@ -230,7 +236,9 @@ li {
   flex-direction: row;
   justify-content: center;
 }
-
+.companyLogo {
+  margin-top: 2%;
+}
 .main-image {
   width: 90%;
   height: auto;
@@ -285,7 +293,7 @@ button a:hover,
 .background {
   position: absolute;
   width: 98vw;
-  height: 60vh;
+  height: 70vh;
   top: 30;
   left: 0;
   background: #ffffff;
@@ -471,6 +479,7 @@ button a:hover,
     margin: auto;
   }
 }
+
 @media (min-width: 811px) and (max-width: 1002px) {
   .brand {
     height: 235px;
@@ -479,7 +488,7 @@ button a:hover,
     margin-bottom: 1000px;
   }
   #learnMore {
-    margin-top: 200px;
+    margin-top: 380px;
   }
   #features {
     width: 100%;
@@ -648,8 +657,9 @@ small {
 }
 
 #companies {
-  height: 300px;
+  height: 60vh;
   padding: 30px;
+  margin-top: 6%;
   color: #4d5157;
 }
 .company-h2 {
